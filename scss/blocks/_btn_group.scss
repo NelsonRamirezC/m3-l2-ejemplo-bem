@@ -1,0 +1,35 @@
+.btn-group {
+    &__button {
+        background-color: #04aa6d; /* Green background */
+        border: 1px solid green; /* Green border */
+        color: white; /* White text */
+        padding: 10px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+
+        &:not(:last-child) {
+            border-right: none; /* Prevent double borders */
+        }
+
+        /* Add a background color on hover */
+        &:hover {
+            background-color: #3e8e41;
+        }
+
+        &--important {
+            background-color: rgb(229, 11, 11);
+
+            &:hover{
+                background-color: red;
+            }
+        }
+
+    }
+
+    /* Clear floats (clearfix hack) */
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}

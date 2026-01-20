@@ -1,0 +1,33 @@
+.btn-group__button {
+  background-color: #04aa6d; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+.btn-group__button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+.btn-group__button {
+  /* Add a background color on hover */
+}
+.btn-group__button:hover {
+  background-color: #3e8e41;
+}
+.btn-group__button--important {
+  background-color: rgb(229, 11, 11);
+}
+.btn-group__button--important:hover {
+  background-color: red;
+}
+.btn-group {
+  /* Clear floats (clearfix hack) */
+}
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*# sourceMappingURL=main.css.map */
