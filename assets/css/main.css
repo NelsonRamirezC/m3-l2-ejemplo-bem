@@ -49,4 +49,18 @@
   background-color: rgb(228, 217, 21);
 }
 
+.alert {
+  padding: 1rem 0.5rem;
+  background-color: grey;
+  margin: 0.5rem 0;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 1.225rem;
+  font-weight: 500;
+}
+.alert--success {
+  color: white;
+  background: linear-gradient(to right, rgb(8, 174, 8), rgb(112, 211, 112));
+}
+
 /*# sourceMappingURL=main.css.map */
