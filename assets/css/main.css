@@ -25,4 +25,28 @@
   background-color: red;
 }
 
+.btn {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 3px 2px 6px 0px #000000;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.btn--primary {
+  color: white;
+  background-color: rgb(33, 33, 231);
+}
+.btn--success {
+  color: white;
+  background-color: rgb(33, 176, 14);
+}
+.btn--warning {
+  background-color: rgb(228, 217, 21);
+}
+
 /*# sourceMappingURL=main.css.map */
