@@ -1,16 +1,19 @@
+.btn-group {
+  --btn-bg: #04aa6d;
+  display: flex;
+}
 .btn-group__button {
-  background-color: #04aa6d; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
+  background-color: var(--btn-bg);
+  border: 1px solid green;
+  padding: 10px 24px;
+  cursor: pointer;
+  flex: 1;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 .btn-group__button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-.btn-group__button {
-  /* Add a background color on hover */
+  border-right: none;
 }
 .btn-group__button:hover {
   background-color: #3e8e41;
@@ -20,14 +23,6 @@
 }
 .btn-group__button--important:hover {
   background-color: red;
-}
-.btn-group {
-  /* Clear floats (clearfix hack) */
-}
-.btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 /*# sourceMappingURL=main.css.map */
