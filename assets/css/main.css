@@ -57,10 +57,38 @@
   border-radius: 12px;
   font-size: 1.225rem;
   font-weight: 500;
+  position: relative;
+  transition: all 0.5s ease;
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.alert__icon {
+  color: black;
+}
+.alert__text {
+  color: black;
 }
 .alert--success {
   color: white;
   background: linear-gradient(to right, rgb(8, 174, 8), rgb(112, 211, 112));
+}
+.alert--success i, .alert--success p {
+  color: white;
+}
+.alert--danger {
+  color: white;
+  background: linear-gradient(to right, red, rgb(227, 66, 66));
+}
+.alert--danger i, .alert--danger p {
+  color: white;
+}
+.alert:hover {
+  cursor: pointer;
+  transform: translatey(-5px) scale(1.025);
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=main.css.map */
