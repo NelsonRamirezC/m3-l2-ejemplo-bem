@@ -91,4 +91,56 @@
   opacity: 0.8;
 }
 
+.team-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  transition: all 0.5s ease;
+}
+.team-card__image {
+  width: 100%;
+}
+.team-card__title {
+  color: grey;
+  font-size: 18px;
+}
+.team-card__social-link {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.team-card__social-link--facebook {
+  color: #1877F2;
+}
+.team-card__social-link--twitter {
+  color: #1DA1F2;
+}
+.team-card__social-link--linkedin {
+  color: #0077B5;
+}
+.team-card__social-link:hover {
+  opacity: 0.7;
+}
+.team-card__contact-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.team-card__contact-button:hover {
+  opacity: 0.7;
+}
+.team-card:hover {
+  transform: scale(1.05) translateY(15px);
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
 /*# sourceMappingURL=main.css.map */
